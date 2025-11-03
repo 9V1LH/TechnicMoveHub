@@ -45,11 +45,7 @@ To drive the car, send the following command with the specified parameters:
 ## Resources
 For more details on the LEGO Wireless Protocol, refer to the [LEGO BLE Wireless Protocol documentation](https://lego.github.io/lego-ble-wireless-protocol-docs/).
 
----
-This document serves as a quick reference guide for developers looking to integrate and control the LEGO Technic Move Hub 88019 in their applications. Ensure your application adheres to the specified security mode and correctly sequences the commands for optimal performance.
----
-
-## Tutorial – Setup the Custom Controller (DFRobot Gamepad + Elecrow mBits)
+# Tutorial – Setup the Handset (DFRobot Gamepad + Elecrow mBits)
 
 ### 1. Buy the hardware
 - [DFRobot Gamepad](https://s.click.aliexpress.com/e/_EJiPxwU)
@@ -67,7 +63,7 @@ In Thonny:
 `Tools → Manage Packages → search "aioble" → Install`
 
 ### 5. Load the control script
-Download and open the provided `.py` script in Thonny.
+Download and open the provided `ESP32_Technic_Move_Hub_****.py` script in Thonny.
 
 ### 6. Save to the board
 Save it on the MicroPython device as **main.py**.
