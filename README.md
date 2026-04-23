@@ -57,6 +57,10 @@ Download from [https://thonny.org/](https://thonny.org/)
 ### 3. Flash latest MicroPython image
 In Thonny:  
 `Tools → Options → Interpreter → Install or Update`
+Use these settings:
+- micropython Family: ESP32
+- variant: Espressif - ESP32/WROOM
+- version: 1.26.1 (tested)
 
 ### 4. Install `aioble` module
 In Thonny:  
